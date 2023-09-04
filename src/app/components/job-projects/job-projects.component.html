@@ -1,0 +1,11 @@
+<div class="job">
+  <h1 class="job--title">Projetos profissionais</h1>
+  <div class="job--titles">
+    <ng-container *ngFor="let project of projects">
+      <div class="job--titles--project" (click)="onOpenProject(project)">
+        {{ project.name }}
+        <img [src]="project.image" alt="">
+      </div>
+    </ng-container>
+  </div>
+</div>

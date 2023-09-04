@@ -1,0 +1,24 @@
+<div class="abt-me">
+  <h1>Sobre mim!</h1>
+  <div class="abt-me--info">
+    <div class="abt-me--technologies">
+      <ng-container *ngFor="let tec of technologies">
+        <img [src]="tec">
+      </ng-container>
+    </div>
+    <div class="abt-me--description">
+      <ion-avatar>
+        <img src="assets/images/eu.jpeg">
+      </ion-avatar>
+      <label>
+        {{ bio }} Onde se pode encontrar os <a (click)="router.navigateByUrl('/home#personal')">projetos pessoais</a> e <a (click)="router.navigateByUrl('/home#job')">projetos profissionais</a>.
+      </label>
+    </div>
+  </div>
+
+  <a (click)="onOpenProfileModal()">
+    <ion-avatar class="abt-me--profile-modal">
+      <img src="assets/images/degrees.svg">
+    </ion-avatar>
+  </a>
+</div>

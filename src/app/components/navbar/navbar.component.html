@@ -1,0 +1,10 @@
+<div class="navbar">
+  <div class="navbar--items">
+    <h1>Vinícius Martins</h1>
+    <div class="navbar--items--options">
+      <ng-container *ngFor="let item of navbarList">
+        <a [routerLink]="item.link">{{ item.name }}</a>
+      </ng-container>
+    </div>
+  </div>
+</div>

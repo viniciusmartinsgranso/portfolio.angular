@@ -1,0 +1,33 @@
+.job {
+  background: var(--grey-purple);
+  padding: 2rem;
+  border-radius: 1rem;
+
+  &--title {
+    font-weight: bold;
+    border-bottom: 0.1rem solid grey;
+    padding-bottom: 1rem;
+  }
+
+  &--titles {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    &--project {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+
+      img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 100%;
+      }
+    }
+  }
+}

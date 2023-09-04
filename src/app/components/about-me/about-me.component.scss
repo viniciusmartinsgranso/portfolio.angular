@@ -1,0 +1,54 @@
+.abt-me {
+  background: var(--grey-purple);
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+
+  h1 {
+    font-weight: bold;
+    border-bottom: 0.1rem solid grey;
+    padding-bottom: 1rem;
+  }
+
+  &--technologies {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    img {
+      width: 4rem;
+      margin: .5rem;
+    }
+  }
+
+  &--info {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &--description {
+    padding: 2rem;
+    background: var(--dark-purple);
+    border-radius: 1rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    font-size: 1.3rem;
+  }
+
+  &--profile-modal {
+    position: absolute;
+    right: 3rem;
+    background: rgb(15 1 135);
+    border-radius: 100%;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: .5rem;
+  }
+}

@@ -1,0 +1,13 @@
+.home {
+  background: var(--darkest-purple);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  &--projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}

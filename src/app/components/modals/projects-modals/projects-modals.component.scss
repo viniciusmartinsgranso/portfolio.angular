@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90vw;
+}
+
+.project {
+  background: var(--darkest-purple);
+  padding: 1rem;
+
+  &--info {
+    background: var(--dark-purple);
+    padding: 2rem;
+  }
+}

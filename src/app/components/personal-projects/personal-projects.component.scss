@@ -1,0 +1,15 @@
+.personal {
+  background: var(--grey-purple);
+  padding: 2rem;
+  border-radius: 1rem;
+
+  &--title {
+    font-weight: bold;
+    border-bottom: 0.1rem solid grey;
+    padding-bottom: 1rem;
+  }
+
+  &--info {
+    font-size: 1.2rem;
+  }
+}

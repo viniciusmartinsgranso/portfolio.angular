@@ -1,0 +1,8 @@
+.background-profile-modal {
+  --background: transparent;
+  //{@link https://forum.ionicframework.com/t/cannot-dismiss-a-modal-by-clicking-the-backdrop-ionic-6/221459}
+  --height: auto;
+  --width: auto;
+  backdrop-filter: blur(0.2rem);
+  --border-radius: 1rem;
+}
